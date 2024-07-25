@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Vector from '../Images/vector1.svg'
+// import Vector from '@/public/images/vector1.svg'
 
 const Vision = () => {
   return (
