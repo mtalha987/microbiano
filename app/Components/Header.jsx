@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "../Images/logo.svg";
-import Search from "../Images/search-normal.svg";
-import Cart from "../Images/cart.svg";
-import Outlines from "../Images/outline.svg";
+import Logo from "@/public/images/logo.svg";
+import Search from "@/public/images/search-normal.svg";
+import Cart from "@/public/images/cart.svg";
+import Outlines from "@/public/images/outline.svg";
 
 const Header = () => {
   return (

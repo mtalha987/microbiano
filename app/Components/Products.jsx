@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Cart from "../Images/productCart.svg"
-import ProductImage from "../Images/productImage.png"
+import Cart from "@/public/images/productCart.svg"
+import ProductImage from "@/public/images/productImage.png"
 
 const Products = () => {
   const catalogeData = [

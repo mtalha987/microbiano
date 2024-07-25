@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Dog from "../Images/dog.png";
+import Dog from "@/public/images/dog.png";
 const Card = () => {
   const cardData = [
     {

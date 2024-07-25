@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import Heroimg from '../Images/hero.svg'
-import Vector1 from '../Images/Vector1.svg'
+import Heroimg from '@/public/images/hero.svg'
+import Vector1 from '@/public/images/Vector1.svg'
 
 const Hero = () => {
   return (

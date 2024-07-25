@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Doctor from '../Images/doctor.png'
+import Doctor from '@/public/images/doctor.png'
 import Vector from '../Images/vector1.svg'
 
 const AboutUsSection = () => {
