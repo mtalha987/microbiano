@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Doctor from '@/public/images/doctor.png'
-import Vector from '@/public/images/vector1.svg'
+import Vector from '@/public/images/Vector1.svg'
 
 const AboutUsSection = () => {
   return (
