@@ -5,6 +5,8 @@ import Card from "./Components/Card";
 import Products from "./Components/Products";
 import AboutUsSection from "./Components/AboutUsSection";
 import Vision from "./Components/Vision";
+import Banner from "./Components/Banner";
+import Footer from "./Components/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
     <Products/>
     <AboutUsSection/>
     <Vision/>
+    <Banner/>
+    <Footer/>
     </>
   );
 }
