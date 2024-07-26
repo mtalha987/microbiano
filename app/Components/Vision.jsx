@@ -6,7 +6,7 @@ import VisionImg from '@/public/images/vision.png'
 const Vision = () => {
   return (
     <>
-        <div className='  md:mt-[182px] md:ml-[90px] sm:ml-5 flex flex-wrap lg:flex-nowrap justify-center lg:justify-normal'>
+        <div className='  lg:mt-[182px] md:ml-[90px] sm:ml-5 flex flex-wrap lg:flex-nowrap justify-center lg:justify-normal'>
             <div className='lg:w-6/12 mx-4 md:mx-0'>
                 <div className='mt-28'>
                 <h2 className="text-[#5f1654] text-[42px] font-normal font-['Arial'] xs:text-center">Our Vision and Mission</h2>
