@@ -4,6 +4,7 @@ import Logo from "@/public/images/logo.svg";
 import Search from "@/public/images/search-normal.svg";
 import Cart from "@/public/images/cart.svg";
 import Outlines from "@/public/images/outline.svg";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
             <span>Sample@gmail.com</span>
             <span>/ </span>
             <span> +04 89 76 4576</span>
-          </div> 
+          </div>
           <div>
             <span className="text-neutral-900 text-[13px] font-normal leading-tight uppercase">
               Open from 9am to 5pm - Closed on Weekends
@@ -29,9 +30,13 @@ const Header = () => {
             </div>
             <div className="hidden lg:block">
               <ul className="flex gap-8 text-[#262626] text-base font-medium leading-normal">
-                <li className="text-[#9e1f66]">Home</li>
-                <li>About Us</li>
-                <li>Shop</li>
+                <li className="text-[#9e1f66]">
+                  <Link href="/">Home</Link>
+                </li>
+                <li>
+                  <Link href="/product">About Us</Link>
+                </li>
+                <li><Link href="/singleProduct">Shop</Link></li>
                 <li>Blog</li>
                 <li>Contact Us</li>
               </ul>
@@ -45,15 +50,12 @@ const Header = () => {
                 <Image src={Cart} className="ml-1" />
               </span>
             </div>
+            {/* For Mobile */}
             <div className="lg:hidden flex">
-        <Image src={Outlines}  width={34}/>
-
-        </div>
+              <Image src={Outlines} width={34} />
+            </div>
           </nav>
-          
         </div>
-        {/* For Mobile */}
-       
       </div>
     </>
   );
