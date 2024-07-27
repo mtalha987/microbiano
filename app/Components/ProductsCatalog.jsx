@@ -3,6 +3,7 @@ import Image from "next/image";
 import Cart from "@/public/images/productCart.svg";
 import ProductImage from "@/public/images/productImage.png";
 import ProductData from "./ProductData";
+import Link from "next/link";
 
 const Products = () => {
   const catalogeData = [
@@ -43,9 +44,11 @@ const Products = () => {
           ))}
         </div>
         <ProductData/>
+        <Link href="/product">
         <div className="w-[163px] h-12 border border-[#9e1f66] text-[#9e1f66] text-base font-normal font-['Arial'] flex justify-center items-center mx-auto xs:mb-10">
           View all Products{" "}
         </div>
+        </Link>
       </div>
     </>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import BannerImg from "@/public/images/bannericon.png";
+import Link from "next/link";
 
 const Banner = () => {
   return (
@@ -23,9 +24,11 @@ const Banner = () => {
             Grab your limited-time discount and enjoy 10% off on all our
             products
           </p>
-          <button className="text-[#9e1f66] text-base font-normal font-['Arial'] w-[134px] h-12 bg-white">
+          <Link href="/product">
+          <button className="text-[#9e1f66] text-base font-normal font-['Arial'] w-[134px] h-12 bg-white mt-7">
             Shop Now
           </button>
+          </Link>
         </div>
       </div>
     </>

@@ -25,9 +25,11 @@ const Header = () => {
         <div className="w-full h-[0px] opacity-40 border border-neutral-800 mt-2 mb-5"></div>
         <div>
           <nav className="flex justify-between items-center">
+            <Link href="/">
             <div>
               <Image src={Logo} />
             </div>
+            </Link>
             <div className="hidden lg:block">
               <ul className="flex gap-8 text-[#262626] text-base font-medium leading-normal">
                 <li className="text-[#9e1f66]">
