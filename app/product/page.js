@@ -10,7 +10,7 @@ const page = () => {
       <Header/>
       <ProductPage/>
       <ProductSection/>
-      {/* <Banner/> */}
+      <Banner/>
     </>
   )
 }
