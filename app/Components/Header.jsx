@@ -1,4 +1,5 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "@/public/images/logo.svg";
 import Search from "@/public/images/search-normal.svg";
@@ -7,14 +8,16 @@ import Outlines from "@/public/images/outline.svg";
 import Link from "next/link";
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <>
       <div className="pt-8 xl:mx-[90px] lg:mx-[40px] mx-5 font-['Poppins']">
         <div className="flex flex-wrap justify-between">
-          <div className="text-[#171717] text-[13px] leading-5 font-normal   ">
+          <div className="text-[#171717] text-[13px] leading-5 font-normal">
             <span>Sample@gmail.com</span>
-            <span>/ </span>
-            <span> +04 89 76 4576</span>
+            <span> / </span>
+            <span>+04 89 76 4576</span>
           </div>
           <div>
             <span className="text-neutral-900 text-[13px] font-normal leading-tight uppercase">
@@ -26,9 +29,9 @@ const Header = () => {
         <div>
           <nav className="flex justify-between items-center">
             <Link href="/">
-            <div>
-              <Image src={Logo} />
-            </div>
+              <div>
+                <Image src={Logo} alt="Logo" />
+              </div>
             </Link>
             <div className="hidden lg:block">
               <ul className="flex gap-8 text-[#262626] text-base font-medium leading-normal">
@@ -38,25 +41,63 @@ const Header = () => {
                 <li>
                   <Link href="/product">About Us</Link>
                 </li>
-                <li><Link href="/singleProduct">Shop</Link></li>
-                <li>Blog</li>
-                <li>Contact Us</li>
+                <li>
+                  <Link href="/singleProduct">Shop</Link>
+                </li>
+                <li>
+                  <Link href="">Blog</Link>
+                </li>
+                <li>
+                  <Link href="">Contact Us</Link>
+                </li>
               </ul>
             </div>
             <div className="lg:flex items-center text-neutral-800 text-base font-normal font-['Poppins'] leading-normal hidden">
               <span className="flex">
-                Shop <Image src={Search} className="ml-1" />
+                Shop <Image src={Search} alt="Search" className="ml-1" />
               </span>
               <span className="flex ml-6">
                 Cart
-                <Image src={Cart} className="ml-1" />
+                <Image src={Cart} alt="Cart" className="ml-1" />
               </span>
             </div>
             {/* For Mobile */}
             <div className="lg:hidden flex">
-              <Image src={Outlines} width={34} />
+              <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                <Image src={Outlines} width={34} alt="Menu" />
+              </button>
             </div>
           </nav>
+          {isMenuOpen && (
+            <div className="lg:hidden mt-4">
+              <ul className="flex flex-col gap-4 text-[#262626] text-base font-medium leading-normal">
+                <li className="text-[#9e1f66]">
+                  <Link href="/">Home</Link>
+                </li>
+                <li>
+                  <Link href="/product">About Us</Link>
+                </li>
+                <li>
+                  <Link href="/singleProduct">Shop</Link>
+                </li>
+                <li>
+                  <Link href="">Blog</Link>
+                </li>
+                <li>
+                  <Link href="">Contact Us</Link>
+                </li>
+              </ul>
+              <div className="flex flex-col mt-4">
+                <span className="flex mb-4">
+                  Shop <Image src={Search} alt="Search" className="ml-1" />
+                </span>
+                <span className="flex">
+                  Cart
+                  <Image src={Cart} alt="Cart" className="ml-1" />
+                </span>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </>
