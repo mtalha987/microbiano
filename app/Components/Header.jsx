@@ -6,13 +6,21 @@ import Search from "@/public/images/search-normal.svg";
 import Cart from "@/public/images/cart.svg";
 import Outlines from "@/public/images/outline.svg";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const pathname = usePathname();
+
+
+  const getHeaderColor = () => {
+    if (pathname === '/') return 'bg-[#f5e9f0]';
+    return 'bg-white';
+  };
   return (
     <>
-      <div className="pt-8 xl:mx-[90px] lg:mx-[40px] mx-5 font-['Poppins']">
+      <div className= {`pt-8 xl:px-[90px] pg:mx-[40px] px-5 font-['Poppins']  ${getHeaderColor()}`}>
         <div className="flex flex-wrap justify-between">
           <div className="text-[#171717] text-[13px] leading-5 font-normal">
             <span>Sample@gmail.com</span>

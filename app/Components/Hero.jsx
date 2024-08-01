@@ -6,7 +6,7 @@ import Vector1 from '@/public/images/Vector1.svg'
 const Hero = () => {
   return (
     <>
-        <div className='flex flex-wrap lg:flex-nowrap  xl:ml-[90px] lg:ml-[40px] sm:ml-5'>
+        <div className='flex flex-wrap lg:flex-nowrap  xl:pl-[90px] lg:pl-[40px] sm:pl-5 bg-[#f5e9f0]'>
             <div className=' lg:mt-24 mt-8'>
                 <h1 className='xl:w-[59%] lg:w-[70%] sm:w-[89%] text-[#5f1654] sm:text-5xl xs:text-4xl font-normal p-2.5'>Advanced Microbiological Media Solutions by Safecare Industries in Abu Dhabi</h1>
                 <div className='ml-80 '>

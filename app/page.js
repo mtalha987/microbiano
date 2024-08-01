@@ -10,10 +10,7 @@ import Banner from "./Components/Banner";
 export default function Home() {
   return (
     <>
-    <div className="bg-[#f5e9f0] m-0 p-0">
-    <Header/>
     <Hero/>
-    </div>
     <Card/>
     <Products/>
     <AboutUsSection/>
