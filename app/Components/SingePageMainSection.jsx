@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import SingleMain from "@/public/images/singleMain.svg";
+import TabsProduct from "./TabsProduct";
+import RelatedProducts from "./RelatedProducts";
 
 const SingePageMainSection = () => {
   return (
@@ -31,6 +33,8 @@ const SingePageMainSection = () => {
           </div>
         </div>
       </div>
+      <TabsProduct/>
+      <RelatedProducts/>
     </>
   );
 };

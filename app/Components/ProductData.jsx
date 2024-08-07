@@ -4,74 +4,77 @@ import Cart from "@/public/images/productCart.svg";
 import ProductImage from "@/public/images/productImage.png";
 import Link from "next/link";
 
-const ProductData = () => {
-  const productData = [
-    {
-      name: "KM0075",
-      price: "$45.00",
-      description: "Bacillus Cereus Agar (MYP)",
-    },
-    {
-      name: "KM0075",
-      price: "$45.00",
-      description: "Bacillus Cereus Agar (MYP)",
-    },
-    {
-      name: "KM0075",
-      price: "$45.00",
-      description: "Bacillus Cereus Agar (MYP)",
-    },
-    {
-      name: "KM0075",
-      price: "$45.00",
-      description: "Bacillus Cereus Agar (MYP)",
-    },
-    {
-      name: "KM0075",
-      price: "$45.00",
-      description: "Bacillus Cereus Agar (MYP)",
-    },
-    {
-      name: "KM0075",
-      price: "$45.00",
-      description: "Bacillus Cereus Agar (MYP)",
-    },
-    {
-      name: "KM0075",
-      price: "$45.00",
-      description: "Bacillus Cereus Agar (MYP)",
-    },
-    {
-      name: "KM0075",
-      price: "$45.00",
-      description: "Bacillus Cereus Agar (MYP)",
-    },
-    {
-      name: "KM0075",
-      price: "$45.00",
-      description: "Bacillus Cereus Agar (MYP)",
-    },
-    {
-      name: "KM0075",
-      price: "$45.00",
-      description: "Bacillus Cereus Agar (MYP)",
-    },
-    {
-      name: "KM0075",
-      price: "$45.00",
-      description: "Bacillus Cereus Agar (MYP)",
-    },
-    {
-      name: "KM0075",
-      price: "$45.00",
-      description: "Bacillus Cereus Agar (MYP)",
-    },
-  ];
+const productData = [
+  {
+    name: "KM0075",
+    price: "$45.00",
+    description: "Bacillus Cereus Agar (MYP)",
+  },
+  {
+    name: "KM0075",
+    price: "$45.00",
+    description: "Bacillus Cereus Agar (MYP)",
+  },
+  {
+    name: "KM0075",
+    price: "$45.00",
+    description: "Bacillus Cereus Agar (MYP)",
+  },
+  {
+    name: "KM0075",
+    price: "$45.00",
+    description: "Bacillus Cereus Agar (MYP)",
+  },
+  {
+    name: "KM0075",
+    price: "$45.00",
+    description: "Bacillus Cereus Agar (MYP)",
+  },
+  {
+    name: "KM0075",
+    price: "$45.00",
+    description: "Bacillus Cereus Agar (MYP)",
+  },
+  {
+    name: "KM0075",
+    price: "$45.00",
+    description: "Bacillus Cereus Agar (MYP)",
+  },
+  {
+    name: "KM0075",
+    price: "$45.00",
+    description: "Bacillus Cereus Agar (MYP)",
+  },
+  {
+    name: "KM0075",
+    price: "$45.00",
+    description: "Bacillus Cereus Agar (MYP)",
+  },
+  {
+    name: "KM0075",
+    price: "$45.00",
+    description: "Bacillus Cereus Agar (MYP)",
+  },
+  {
+    name: "KM0075",
+    price: "$45.00",
+    description: "Bacillus Cereus Agar (MYP)",
+  },
+  {
+    name: "KM0075",
+    price: "$45.00",
+    description: "Bacillus Cereus Agar (MYP)",
+  },
+];
+
+const ProductData = ({limit}) => {
+  const displayedProducts = limit ? productData.slice(0, limit) : productData;
+  
   return (
     <>
       <div className="mt-14">
         <div className="flex flex-wrap 2xl:justify-center justify-center xl:justify-normal gap-6">
-          {productData.map((info, id) => (
+          {displayedProducts.map((info, id) => (
             <div
               className="xl:w-[298px] 2xl:w-auto  bg-white shadow mb-[40px]"
               key={id} >
