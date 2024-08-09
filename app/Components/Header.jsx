@@ -47,16 +47,16 @@ const Header = () => {
                   <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/product">About Us</Link>
+                  <Link href="/about">About Us</Link>
                 </li>
                 <li>
-                  <Link href="/singleProduct">Shop</Link>
+                  <Link href="/product">Shop</Link>
                 </li>
                 <li>
                   <Link href="">Blog</Link>
                 </li>
                 <li>
-                  <Link href="">Contact Us</Link>
+                  <Link href='/contact'>Contact Us</Link>
                 </li>
               </ul>
             </div>

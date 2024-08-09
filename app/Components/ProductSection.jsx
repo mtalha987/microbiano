@@ -32,49 +32,80 @@ const ProductSection = () => {
             <div className="w-full h-[0px] border border-[#eae9e8] mt-6"></div>
 
             <div className="pb-4 lg:pb-0">
-                  <div className="flex gap-3 mx-4 mt-4">
-                    <div className="w-6 h-6 border border-[#5F1654]  rounded-full flex justify-center items-center content-center">
-                      <div className="w-4 h-4 border border-[#5F1654]  bg-[#5F1654]  rounded-full"></div>
-                    </div>
-                    <div><h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">Microbiological Media</h2></div>
-                  </div>
-                  <div className="flex gap-3 mx-4 mt-4">
-                    <div className="w-6 h-6 border border-[#9D9996]  rounded-full flex justify-center items-center content-center">
-                      <div className="w-4 h-4   rounded-full"></div>
-                    </div>
-                    <div><h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">Microbiological Media</h2></div>
-                  </div>
-                  <div className="flex gap-3 mx-4 mt-4">
-                    <div className="w-6 h-6 border border-[#9D9996]  rounded-full flex justify-center items-center content-center">
-                      <div className="w-4 h-4   rounded-full"></div>
-                    </div>
-                    <div><h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">Microbiological Media</h2></div>
-                  </div>
-                  <div className="flex gap-3 mx-4 mt-4">
-                    <div className="w-6 h-6 border border-[#9D9996]  rounded-full flex justify-center items-center content-center">
-                      <div className="w-4 h-4   rounded-full"></div>
-                    </div>
-                    <div><h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">Microbiological Media</h2></div>
-                  </div>
-                  <div className="flex gap-3 mx-4 mt-4">
-                    <div className="w-6 h-6 border border-[#9D9996]  rounded-full flex justify-center items-center content-center">
-                      <div className="w-4 h-4   rounded-full"></div>
-                    </div>
-                    <div><h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">Microbiological Media</h2></div>
-                  </div>
+              <div className="flex gap-3 mx-4 mt-4">
+                <div className="w-6 h-6 border border-[#5F1654]  rounded-full flex justify-center items-center content-center">
+                  <div className="w-4 h-4 border border-[#5F1654]  bg-[#5F1654]  rounded-full"></div>
+                </div>
+                <div>
+                  <h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
+                    Microbiological Media
+                  </h2>
+                </div>
+              </div>
+              <div className="flex gap-3 mx-4 mt-4">
+                <div className="w-6 h-6 border border-[#9D9996]  rounded-full flex justify-center items-center content-center">
+                  <div className="w-4 h-4   rounded-full"></div>
+                </div>
+                <div>
+                  <h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
+                    Microbiological Media
+                  </h2>
+                </div>
+              </div>
+              <div className="flex gap-3 mx-4 mt-4">
+                <div className="w-6 h-6 border border-[#9D9996]  rounded-full flex justify-center items-center content-center">
+                  <div className="w-4 h-4   rounded-full"></div>
+                </div>
+                <div>
+                  <h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
+                    Microbiological Media
+                  </h2>
+                </div>
+              </div>
+              <div className="flex gap-3 mx-4 mt-4">
+                <div className="w-6 h-6 border border-[#9D9996]  rounded-full flex justify-center items-center content-center">
+                  <div className="w-4 h-4   rounded-full"></div>
+                </div>
+                <div>
+                  <h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
+                    Microbiological Media
+                  </h2>
+                </div>
+              </div>
+              <div className="flex gap-3 mx-4 mt-4">
+                <div className="w-6 h-6 border border-[#9D9996]  rounded-full flex justify-center items-center content-center">
+                  <div className="w-4 h-4   rounded-full"></div>
+                </div>
+                <div>
+                  <h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
+                    Microbiological Media
+                  </h2>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div className="w-[66%] xs:w-full ">
           <ProductData />
           <div className="flex gap-2 justify-center lg:mt-16 mt-5 lg:mb-20 mb-5 ">
-            <div className="w-10 h-10 bg-white shadow flex justify-center items-center rotate-90"><Image src={ArrowDown}/></div>
-            <div className="w-10 h-10  shadow flex justify-center items-center bg-[#9e1f66] text-[white] text-base font-normal font-['Poppins'] leading-normal">1</div>
-            <div className="w-10 h-10 bg-white shadow flex justify-center items-center text-[#554e49] text-base font-normal font-['Poppins'] leading-normal">2</div>
-            <div className="w-10 h-10 bg-white shadow flex justify-center items-center text-[#554e49] text-base font-normal font-['Poppins'] leading-normal">3</div>
-            <div className="w-10 h-10 bg-white shadow flex justify-center items-center text-[#554e49] text-base font-normal font-['Poppins'] leading-normal">4</div>
-            <div className="w-10 h-10 bg-white shadow flex justify-center items-center -rotate-90"><Image src={ArrowDown}/></div>
-
+            <div className="w-10 h-10 bg-white shadow flex justify-center items-center rotate-90">
+              <Image src={ArrowDown} />
+            </div>
+            <div className="w-10 h-10  shadow flex justify-center items-center bg-[#9e1f66] text-[white] text-base font-normal font-['Poppins'] leading-normal">
+              1
+            </div>
+            <div className="w-10 h-10 bg-white shadow flex justify-center items-center text-[#554e49] text-base font-normal font-['Poppins'] leading-normal">
+              2
+            </div>
+            <div className="w-10 h-10 bg-white shadow flex justify-center items-center text-[#554e49] text-base font-normal font-['Poppins'] leading-normal">
+              3
+            </div>
+            <div className="w-10 h-10 bg-white shadow flex justify-center items-center text-[#554e49] text-base font-normal font-['Poppins'] leading-normal">
+              4
+            </div>
+            <div className="w-10 h-10 bg-white shadow flex justify-center items-center -rotate-90">
+              <Image src={ArrowDown} />
+            </div>
           </div>
         </div>
       </div>
