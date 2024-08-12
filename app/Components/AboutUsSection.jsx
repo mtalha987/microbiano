@@ -6,7 +6,7 @@ import Vector from '@/public/images/Vector1.svg'
 const AboutUsSection = () => {
   return (
     <>
-    <div className='bg-[#f5e9f0]/80  lg:h-[568px] xl:mt-[182px] sm:mt-[50px] flex sm:flex-wrap lg:flex-nowrap sm:justify-center lg:justify-normal gap-[93px]'>
+    <div className='bg-[#f5e9f0]/80  lg:h-[568px] xl:mt-[182px] sm:mt-[50px] flex sm:flex-wrap lg:flex-nowrap sm:justify-center lg:justify-normal 2xl:justify-around gap-[93px]'>
         <div className='lg:ml-[90px] mx-5 lg:relative lg:-top-9 sm:mt-5 lg:mt-0  xs:hidden '>
             <Image src={Doctor}/>
 
