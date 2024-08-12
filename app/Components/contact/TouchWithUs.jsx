@@ -28,12 +28,12 @@ const TouchWithUs = () => {
               className="py-3 pl-5  w-[80%] xs:w-[92%] bg-[#FAFAFA] font-primary leading-[17.68px] font-normal text-base text-[#04040466] mt-5"
             />
             <textarea
-              name=""
+              name="Message"
               id=""
               cols="30"
               rows="7"
               placeholder="Message"
-              className="py-3 pl-5  w-[80%] xs:w-[92%] bg-[#FAFAFA] font-primary leading-[17.68px] font-normal text-base text-[#04040466] mt-5"
+              className="py-3 pl-5 w-[80%] xs:w-[92%] bg-[#FAFAFA] font-primary leading-[17.68px] font-normal text-base text-[#04040466] mt-5"
             ></textarea>
             <div>
               <button className="bg-secondary text-white py-3 px-10 mt-5">
@@ -51,7 +51,7 @@ const TouchWithUs = () => {
             // allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            allowFullScreen />
+            allowFullScreen />
         </div>
       </div>
     </>
