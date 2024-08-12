@@ -30,7 +30,7 @@ const Products = () => {
 
   return (
     <>
-      <div className="xl:ml-[90px] 2xl:px-[90px] ">
+      <div className="xl:ml-[90px] 2xl:px-[90px] lg:px-[40px] px-4 ">
         <div className="xs:flex xs:justify-between xs:mx-2 xs:items-center xs:gap-2">
           <h2 className="text-[#18130f] text-[42px] font-normal font-['Arial'] text-center xl:text-left 2xl:text-center">
             Products
