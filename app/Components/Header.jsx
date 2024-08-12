@@ -21,6 +21,9 @@ const Header = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen); // Toggle the mobile menu state
   };
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
   return (
     <>
       <div className={`pt-[20px] xl:px-[90px] lg:px-[40px] px-5  ${getHeaderColor()}`}>
@@ -74,16 +77,16 @@ const Header = () => {
           <div className={`md:hidden ${getHeaderColor()} flex items-center  flex-col `}>
             
             <ul className="flex items-center w-full flex-col gap-4 pt-4 text-black text-base font-normal font-secondary leading-tight">
-              <li><Link href="/">Home</Link></li>
+              <li><Link href="/" onClick={handleLinkClick}>Home</Link></li>
               <div className="w-full h-[0px] opacity-40 border border-[#0000004D] "></div>
 
-              <li><Link href="/about">About Us</Link></li>
+              <li><Link href="/about" onClick={handleLinkClick}>About Us</Link></li>
               <div className="w-full h-[0px] opacity-40 border border-[#0000004D]  "></div>
 
-              <li><Link href="/product">Product</Link></li>
+              <li><Link href="/product" onClick={handleLinkClick}>Product</Link></li>
               <div className="w-full h-[0px] opacity-40 border border-[#0000004D] "></div>
 
-              <li><Link href="/contact">Contact Us</Link></li>
+              <li><Link href="/contact" onClick={handleLinkClick}>Contact Us</Link></li>
               <div className="w-full h-[0px] opacity-40 border border-[#0000004D]  "></div>
             </ul>
             <div className="px-[25px] mt-12 py-3 bg-secondary justify-center items-center gap-4 inline-flex text-white text-base font-medium font-primary">
