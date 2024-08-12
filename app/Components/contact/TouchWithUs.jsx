@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 // import TouchContact from "@/public/images/touchContact.svg";
 
-const TouchWithUs = () => {
+const TouchwithUS = () => {
   return (
     <>
       <div className="xl:px-[90px] lg:px-[40px] px-5 flex sm:mt-20 xs:mt-10 bg-white lg:justify-between flex-wrap justify-center  ">
@@ -58,4 +58,4 @@ const TouchWithUs = () => {
   );
 };
 
-export default TouchWithUs;
+export default TouchwithUS;
