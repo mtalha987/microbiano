@@ -2,11 +2,13 @@ import React from 'react'
 import Hero from '../Components/contact/Hero'
 import TouchWithUs from '../Components/contact/TouchwithUs'
 import ContactInformation from '../Components/contact/ContactInformation'
+import PageNameBanner from '../Components/PageNameBanner'
+import ProductPageBanner from "@/public/images/productPageBanner.png"
 
 const page = () => {
   return (
     <>
-      <Hero/>
+      <PageNameBanner title="Contact Us" image={ProductPageBanner}/>
       <TouchWithUs/>
       <ContactInformation/>
     </>
