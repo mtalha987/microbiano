@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import BannerImg from "@/public/images/BannerCut.png";
 import Link from "next/link";
-import ZLine from "@/public/images/vector1.svg";
+import ZLine from "@/public/images/Vector1.svg";
 
 const Banner = () => {
   return (
