@@ -67,7 +67,7 @@ const productData = [
   },
 ];
 
-const ProductData = ({limit}) => {
+const ProductData = ({limit , }) => {
   const displayedProducts = limit ? productData.slice(0, limit) : productData;
   
   return (
@@ -76,7 +76,7 @@ const ProductData = ({limit}) => {
         <div className="flex flex-wrap  xl:justify-normal gap-6">
           {displayedProducts.map((info, id) => (
             <div
-              className="w-[296px] 2xl:w-[342px]   bg-white shadow mb-[40px]"
+              className={`w-[296px] 2xl:w-[342px] bg-white shadow mb-[40px]`}
               key={id} >
               <Link href="/singleProduct">
               <div className="flex items-center justify-between">

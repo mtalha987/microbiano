@@ -6,8 +6,8 @@ import ArrowDown from "@/public/images/arrow-down.svg";
 const ProductSection = () => {
   return (
     <>
-      <div className="flex xs:flex-wrap xl:mx-[90px] lg:mx-10 mx-4 gap-10">
-        <div className="md:w-[31%] sm:w-[39%] xs:w-full mt-14">
+      <div className="flex xs:flex-wrap 2xl:max-w-[1440px] 2xl:mx-auto  xl:mx-[90px] lg:mx-10 mx-4 gap-10">
+        <div className="md:w-[31%] 2xl:w-[32%] sm:w-[39%] xs:w-full mt-14">
           <div className="lg:w-[350px]">
             <form className="flex">
               <input
@@ -21,7 +21,7 @@ const ProductSection = () => {
           <div className="lg:w-[350px] lg:h-[292px] bg-white shadow mt-5">
             <div className="flex items-center content-center justify-between pt-6 mx-4">
               <div>
-                <h2 className="text-[#18130f] text-2xl font-normal font-['Arial'] leading-[28.80px]">
+                <h2 className="text-[#18130f] text-2xl font-normal font-arial leading-[28.80px]">
                   Categories
                 </h2>
               </div>
@@ -85,7 +85,7 @@ const ProductSection = () => {
             </div>
           </div>
         </div>
-        <div className="w-[66%] xs:w-full ">
+        <div className="w-[66%]  xs:w-full ">
           <ProductData />
           <div className="flex gap-2 justify-center lg:mt-16 mt-5 lg:mb-20 mb-5 ">
             <div className="w-10 h-10 bg-white shadow flex justify-center items-center rotate-90">

@@ -47,7 +47,7 @@ const Products = () => {
             </div>
           ))}
         </div>
-        <ProductData limit={8} />
+        <ProductData limit={8}/>
         <Link href="/product">
           <div className="w-[163px] h-12 border border-[#9e1f66] text-[#9e1f66] text-base font-normal font-arial flex justify-center items-center mx-auto xs:mb-10">
             View all Products{" "}
