@@ -12,15 +12,15 @@ const AboutUsSection = () => {
 
         </div>
         <div className='xs:mx-5 xs:mt-5'>
-            <h2 className="text-[#5f1654] text-[42px] font-normal font-['Arial'] lg:mt-[102px] ">About Us</h2>
+            <h2 className="text-[#5f1654] text-[42px] font-normal font-arial lg:mt-[102px] ">About Us</h2>
             <div>
                 <Image src={Vector}/>
             </div>
             <div>
-                <p className="w-[489px] xs:w-full  text-[#151515] text-base font-normal font-['Inter'] leading-normal mt-5">Safecare Industries located in KEZAD- Abu Dhabi with fully automated manufacturing facilities specialized in manufacturing and supplying an extensive range of Microbiological Pre-poured Culture Media (PPM), Pre-poured Tubed Media and Bottle Media. All operational functions adhere to the required industry compliance criteria </p>
+                <p className="w-[489px] xs:w-full  text-[#151515] text-base font-normal font-secondary leading-normal mt-5">Safecare Industries located in KEZAD- Abu Dhabi with fully automated manufacturing facilities specialized in manufacturing and supplying an extensive range of Microbiological Pre-poured Culture Media (PPM), Pre-poured Tubed Media and Bottle Media. All operational functions adhere to the required industry compliance criteria </p>
             </div>
             <div className='mt-[42px] mb-10 lg:mb-0 '>
-                <button className="text-white text-base font-normal font-['Arial'] w-[134px] h-12 bg-[#5f1654]">Enquire now</button>
+                <button className="text-white text-base font-normal font-arial w-[134px] h-12 bg-[#5f1654]">Enquire now</button>
             </div>
 
         </div>

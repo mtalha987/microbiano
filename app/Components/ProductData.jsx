@@ -80,7 +80,7 @@ const ProductData = ({limit}) => {
               key={id} >
               <Link href="/singleProduct">
               <div className="flex items-center justify-between">
-                <div className="w-[61px] h-12 bg-[#9e1f66] rounded-br-[15px] text-white text-base font-normal font-['Poppins'] leading-normal flex justify-center items-center">
+                <div className="w-[61px] h-12 bg-[#9e1f66] rounded-br-[15px] text-white text-base font-normal font-primary leading-normal flex justify-center items-center">
                   New
                 </div>
                 <div className="mr-2">
@@ -93,14 +93,14 @@ const ProductData = ({limit}) => {
               <div className=" border-t border-[#f3f3f3]">
                 <div className="flex items-center justify-between mx-4 mt-3">
                   <div>
-                    <h3>{info.name}</h3>
+                    <h3 className="font-secondary">{info.name}</h3>
                   </div>
                   <div>
-                    <span>{info.price}</span>
+                    <span className="font-primary">{info.price}</span>
                   </div>
                 </div>
                 <div className="mx-4 mt-1">
-                  <h3 className="mb-4">{info.description}</h3>
+                  <h3 className="mb-4 font-secondary">{info.description}</h3>
                 </div>
               </div>
               </Link>

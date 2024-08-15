@@ -14,7 +14,7 @@ const Footer = () => {
               <Image src={Logo} alt="logo" />
             </div>
             <div className="mt-9">
-              <p className="w-[72%] xs:w-full text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
+              <p className="w-[72%] xs:w-full text-[#716b66] text-base font-normal font-secondary leading-normal">
                 Safecare Prepared plates and broth tested in accordance with
                 CLSI M22 A3- Quality assurance for Commercially Prepared
                 Microbiological Culture Media – second edition.
@@ -25,10 +25,10 @@ const Footer = () => {
           {/* Col 2 */}
           <div>
             <div className="flex flex-col gap-5">
-              <h3 className="text-[#1e1e1e] text-xl font-normal font-['Arial']">
+              <h3 className="text-[#1e1e1e] text-xl font-normal font-arial">
                 Quick Links
               </h3>
-              <ul className="flex flex-col gap-5 text-[#716b66] text-base font-normal font-['Inter']">
+              <ul className="flex flex-col gap-5 text-[#716b66] text-base font-normal font-secondary">
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Product</li>
@@ -39,20 +39,20 @@ const Footer = () => {
           {/* Col 3 */}
           <div>
             <div className="flex flex-col gap-5">
-              <h3 className="text-[#1e1e1e] text-xl font-normal font-['Arial']">
+              <h3 className="text-[#1e1e1e] text-xl font-normal font-arial">
                 News Letter
               </h3>
-              <p className="text-[#716b66] text-base font-normal font-['Poppins'] leading-normal">
+              <p className="text-[#716b66] text-base font-normal font-primary leading-normal">
                 Over 750+ people have subscribed.
               </p>
               <div>
                 <form className="flex">
                   <input
                     type="text"
-                    className="w-full h-12 px-[22px] py-3.5 bg-white shadow justify-start items-start gap-2.5 inline-flex text-[#9d9996] text-[13px] font-normal font-['Inter'] leading-tight"
+                    className="w-full h-12 px-[22px] py-3.5 bg-white shadow justify-start items-start gap-2.5 inline-flex text-[#9d9996] text-[13px] font-normal font-secondary leading-tight"
                     placeholder="Enter your Email"
                   />
-                  <button className="w-[134px] h-12 bg-[#9e1f66] text-white text-base font-normal font-['Arial'] ml-2">
+                  <button className="w-[134px] h-12 bg-[#9e1f66] text-white text-base font-normal font-arial ml-2">
                     Shop Now
                   </button>
                 </form>
@@ -62,7 +62,7 @@ const Footer = () => {
           {/* Col 4 */}
           <div>
             <div>
-              <h2 className=" text-[#1e1e1e] text-xl font-normal font-['Arial']">
+              <h2 className=" text-[#1e1e1e] text-xl font-normal font-arial">
                 Social Links
               </h2>
               <div className="mt-5">
@@ -73,10 +73,10 @@ const Footer = () => {
           {/* Col-5 */}
           <div>
             <div className="flex flex-col gap-5">
-              <h2 className="text-[#1e1e1e] text-xl font-semibold font-['Inter']">
+              <h2 className="text-[#1e1e1e] text-xl font-semibold font-secondary">
                 Key features
               </h2>
-              <div className="flex flex-col gap-4  text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
+              <div className="flex flex-col gap-4  text-[#716b66] text-base font-normal font-secondary leading-normal">
                 <p>
                   All our PPM products are quality assures and manufacturing
                   facilities adhere to Good Manufacturing Practice Guidelines.
@@ -110,10 +110,10 @@ const Footer = () => {
           {/* Col 6 */}
           <div>
             <div className="flex flex-col gap-5">
-              <h2 className="text-[#1e1e1e] text-xl font-semibold font-['Inter']">
+              <h2 className="text-[#1e1e1e] text-xl font-semibold font-secondary">
                 Accreditation
               </h2>
-              <div className="flex flex-col gap-4  text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
+              <div className="flex flex-col gap-4  text-[#716b66] text-base font-normal font-secondary leading-normal">
                 <p>ISO 9001: 2015 Quality Management System</p>
                 <p>
                   ISO 13485: 2016 The development, manufacture and supply of
@@ -135,7 +135,7 @@ const Footer = () => {
         <div className="lg:mt-24 mt-5">
           <div className="w-full h-[0px] border border-neutral-300"></div>
           <div className="py-6">
-            <h3 className="text-[#9f9f9f] text-base font-normal font-['Inter'] text-center">
+            <h3 className="text-[#9f9f9f] text-base font-normal font-secondary text-center">
               Copyright 2024 Microbiano Ltd | All Rights Reserved
             </h3>
           </div>

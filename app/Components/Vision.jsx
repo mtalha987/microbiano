@@ -13,7 +13,7 @@ const Vision = () => {
             {/* Section 2 */}
             <div className='lg:w-6/12 2xl:w-[auto] mx-4 md:mx-0 '>
                 <div className='sm:mt-28 xs:mt-14'>
-                <h2 className="text-secondary text-[42px] font-normal font-nohemi xs:text-center">Our Vision and Mission</h2>
+                <h2 className="text-secondary text-[42px] font-normal font-arial xs:text-center">Our Vision and Mission</h2>
                     <Image src={Vector} className='sm:ml-48 xs:ml-9 xs:mt-3' />
                 </div>
                 <div className='xs:mt-2'>
