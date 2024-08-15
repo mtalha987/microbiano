@@ -43,8 +43,8 @@ const SliderHero = () => {
             autoplay // Change delay to 1000 milliseconds (1 second)
           >
             <SwiperSlide>
-            <div className='flex flex-wrap md:flex-nowrap  xl:pl-[90px] lg:pl-[40px] sm:pl-5 bg-[#f5e9f0]'>
-            <div className='2xl:w-[60%] md:w-[70%] lg:w-[85%] lg:mt-24 mt-8'>
+            <div className='flex flex-wrap lg:flex-nowrap  xl:px-[90px] lg:px-10 px-5 bg-[#f5e9f0]'>
+            <div className='2xl:w-[60%] md:w-[80%] lg:w-[85%] lg:mt-24 mt-8'>
                 <h1 className='xl:w-[72%] lg:w-[75%] sm:w-[89%] md:w-[95%] text-secondary sm:text-5xl xs:text-4xl font-normal font-arial p-2.5'>Advanced Microbiological Media Solutions by Safecare Industries in Abu Dhabi</h1>
                 <div className='ml-80 '>
                     <Image
@@ -52,12 +52,12 @@ const SliderHero = () => {
                     />
                 </div>
                 <p className="mt-4 text-black text-base font-normal font-secondary  leading-normal lg:w-[51%] w-[95%] pl-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
-                <div className='mt-11 pl-2.5 pb-36'>
+                <div className='mt-11 pl-2.5 lg:pb-36'>
                     <button className='w-[134px] h-12 bg-secondary text-white text-base font-normal font-arial'>Enquire now</button>
                     <button className='w-[134px] h-12 border border-secondary text-secondary text-base font-semibold ml-3 font-arial'>Learn more</button>
                 </div>
             </div>
-            <div className=''>
+            <div className='flex justify-end w-full lg:w-auto'>
                 <Image
                 src={Heroimg}
                 className="relative right-0 bottom-0 top-0 w-[100%] h-full"

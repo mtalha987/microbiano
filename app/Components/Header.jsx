@@ -26,7 +26,7 @@ const Header = () => {
   };
   return (
     <>
-      <div className={`pt-[20px] xl:px-[90px] lg:px-[40px] px-5  ${getHeaderColor()}`}>
+      <div className={`pt-5 xl:px-[90px] lg:px-10 px-5  ${getHeaderColor()}`}>
         <div className="hidden  lg:flex flex-wrap justify-between text-neutral-dark-gray text-[13px] font-primary ">
           <div className="leading-5 font-normal ">
             <span>Sample@gmail.com</span>
@@ -48,7 +48,7 @@ const Header = () => {
             </Link>
           </div>
           <div className="hidden lg:flex items-center">
-            <div className="xl:mr-[205px] lg:mr-[150px] sm:mr-10 mr-4 text-neutral-gray text-base font-normal font-primary leading-normal">
+            <div className="xl:mr-[205px] lg:mr-[120px] sm:mr-10 mr-4 text-neutral-gray text-base font-normal font-primary leading-normal">
               <ul className="flex lg:gap-8 gap-4">
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/about">About Us</Link></li>

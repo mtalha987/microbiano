@@ -8,12 +8,12 @@ import MissionIcon from '@/public/images/missionIcon.svg'
 const Vision = () => {
   return (
     <>
-          <div className='  sm:mt-16 xl:px-[90px] lg:px-[40px] px-4  flex flex-wrap xl:flex-nowrap justify-center 2xl:justify-around lg:justify-normal'>
+          <div className=' xl:px-[90px] lg:px-10 px-5 sm:mt-16  flex flex-wrap xl:flex-nowrap   justify-between'>
          
             {/* Section 2 */}
-            <div className='lg:w-6/12 2xl:w-[auto] mx-4 md:mx-0 '>
+            <div className='lg:w-6/12 2xl:w-[auto]  '>
                 <div className='sm:mt-28 xs:mt-14'>
-                <h2 className="text-secondary text-[42px] font-normal font-arial xs:text-center">Our Vision and Mission</h2>
+                <h2 className="text-secondary text-[42px] font-normal font-arial ">Our Vision and Mission</h2>
                     <Image src={Vector} className='sm:ml-48 xs:ml-9 xs:mt-3' />
                 </div>
                 <div className='xs:mt-2'>
@@ -36,9 +36,9 @@ const Vision = () => {
 
                 </div>
             </div>
-            <div className='lg:w-6/12 2xl:w-auto lg:relative '>
+            <div className='lg:w-6/12 2xl:w-auto lg:relative flex justify-end '>
                 <Image src={VisionImg} className='mt-12 xl:ml-12 lg:mt-0'/>
-                <div className="w-[155px] h-[397px] bg-secondary lg:absolute -z-10  hidden xl:block top-20 " />
+                <div className="w-[155px] h-[397px] bg-secondary lg:absolute -z-10  hidden xl:block top-20 left-16 2xl:left-0" />
             </div>
         </div>
     </>

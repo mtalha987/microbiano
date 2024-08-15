@@ -76,7 +76,7 @@ const ProductData = ({limit}) => {
         <div className="flex flex-wrap 2xl:justify-center justify-center xl:justify-normal gap-6">
           {displayedProducts.map((info, id) => (
             <div
-              className="xl:w-[298px] 2xl:w-auto  bg-white shadow mb-[40px]"
+              className="w-[298px]   bg-white shadow mb-[40px]"
               key={id} >
               <Link href="/singleProduct">
               <div className="flex items-center justify-between">
