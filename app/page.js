@@ -6,11 +6,13 @@ import Products from "./Components/ProductsCatalog";
 import AboutUsSection from "./Components/AboutUsSection";
 import Vision from "./Components/Vision";
 import Banner from "./Components/Banner";
+import SliderHero from "./Components/SliderHero";
 
 export default function Home() {
   return (
     <>
-    <Hero/>
+    {/* <Hero/> */}
+    <SliderHero/>
     <Card/>
     <Products/>
     <AboutUsSection/>
