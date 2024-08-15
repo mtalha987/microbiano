@@ -7,13 +7,13 @@ import ZLine from "@/public/images/Vector1.svg";
 const Banner = () => {
   return (
     <>
-    <div className="xl:px-[90px] lg:px-10 px-5 sm:h-[393px] relative mt-24">
+    <div className="2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-0  xl:px-[90px] lg:px-10 px-5 sm:h-[393px] relative mt-24">
       <div className="flex ">
         <div className="absolute hidden lg:block">
           <Image src={BannerImg} alt="Banner Image" />
         </div>
         <div className="sm:h-[334px] w-full bg-secondary mt-8 p-3 ">
-          <div className="border border-white h-[314px]  2xl:pl-[50%] xl:pl-[50%] lg:pl-[54%] sm:pl-10 xs:pl-3 ">
+          <div className="border border-white h-[314px]  xl:pl-[50%] lg:pl-[54%] sm:pl-10 xs:pl-3 ">
             <div>
               <h2 className="xl:w-[539px] sm:mt-[50px] text-white text-[42px] font-normal font-arial xs:w-[90%]">Enjoy up to 10% off!!</h2>
             </div>

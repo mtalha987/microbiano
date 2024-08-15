@@ -6,8 +6,8 @@ import SocialIcons from "@/public/images/scoial.png";
 const Footer = () => {
   return (
     <>
-      <div className="xl:px-[90px] lg:px-10 px-5 lg:mt-[100px] bg-[#f9f9f9] flex flex-col ">
-        <div className="grid lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1   gap-10 lg:pt-[90px] pt-10">
+      <div className="xl:px-[90px] lg:px-10 px-5 lg:mt-[100px]  bg-[#f9f9f9] flex flex-col ">
+        <div className="grid lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1  2xl:max-w-[1440px] 2xl:mx-auto  gap-10 lg:pt-[90px] pt-10">
           {/* Col1 */}
           <div>
             <div className="ml-2">

@@ -30,14 +30,14 @@ const Products = () => {
 
   return (
     <>
-      <div className="xl:px-[90px] lg:px-10 px-5">
-        <div className="flex justify-between 2xl:justify-center  items-center xs:gap-2">
+      <div className="xl:px-[90px] 2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-0 lg:px-10 px-5">
+        <div className="flex justify-between   items-center xs:gap-2">
           <h2 className="text-[#18130f] text-[42px] font-normal font-arial text-center xl:text-left 2xl:text-center">
             Products
           </h2>
           <MobileDropDown />
         </div>
-        <div className="md:flex xl:flex-nowrap flex-wrap font-arial justify-start xl:justify-normal 2xl:justify-center  gap-3 mt-7 hidden">
+        <div className="md:flex xl:flex-nowrap flex-wrap font-arial justify-start xl:justify-normal   gap-3 mt-7 hidden">
           {catalogeData.map((info, id) => (
             <div
               className="h-[35px] px-[15px] py-2.5 rounded-lg border border-black justify-center items-center gap-2.5 inline-flex"

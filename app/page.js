@@ -11,13 +11,15 @@ import SliderHero from "./Components/SliderHero";
 export default function Home() {
   return (
     <>
-    {/* <Hero/> */}
-    <SliderHero/>
-    <Card/>
-    <Products/>
-    <AboutUsSection/>
-    <Vision/>
-    <Banner/>
+      {/* <Hero/> */}
+      <div className="">
+        <SliderHero />
+        <Card />
+        <Products />
+        <AboutUsSection />
+        <Vision />
+        <Banner />
+      </div>
     </>
   );
 }
