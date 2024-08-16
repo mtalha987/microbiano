@@ -6,7 +6,7 @@ import ArrowDown from "@/public/images/arrow-down.svg";
 const ProductSection = () => {
   return (
     <>
-      <div className="flex xs:flex-wrap 2xl:max-w-[1440px] 2xl:mx-auto  xl:mx-[90px] lg:mx-10 mx-4 gap-10">
+      <div className="flex xs:flex-wrap 2xl:max-w-[1440px] 2xl:mx-auto  xl:mx-[90px] lg:mx-10 mx-5 gap-10">
         <div className="md:w-[31%] 2xl:w-[32%] sm:w-[39%] xs:w-full mt-14">
           <div className="lg:w-[350px]">
             <form className="flex">

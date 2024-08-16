@@ -10,11 +10,11 @@ const ContactInformation = () => {
       <h2 className="text-black text-center text-[32px] font-normal font-arial mt-36">
         Contact Information
       </h2>
-      <p className="lg:w-[548px] mx-auto text-center text-black text-base font-normal font-secondary leading-normal mt-2">
+      <p className="lg:w-[548px] xs:px-5  mx-auto text-center text-black text-base font-normal font-secondary leading-normal mt-2">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore{" "}
       </p>
-      <div className="flex flex-wrap gap-5 justify-center">
+      <div className="flex flex-wrap gap-5 justify-center 2xl:max-w-[1440px] 2xl:mx-auto  xl:mx-[90px] lg:mx-10 mx-5">
         <CardContact image={PhoneIcon} title="Phone:" info="(12+) 123 3456"/>
         <CardContact image={EmailIcon} title="Email:" info="support@yoursite.com"/>
         <CardContact image={LocationIcon} title="Location:" info="121th Haidezign st, Melbourne, AUS 12313"/>

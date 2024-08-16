@@ -66,10 +66,10 @@ const SliderHero = () => {
                         </button>
                       </div>
                     </div>
-                    <div className="flex justify-end w-full lg:w-auto">
+                    <div className="flex justify-end w-full  lg:w-auto">
                       <Image
                         src={Heroimg}
-                        className="relative right-0 bottom-0 top-0 w-[100%] h-full"
+                        className="relative right-0 bottom-0 top-0 sm:w-[500px] lg:w-[100%] h-full"
                         width={717}
                         height={623}
                       />
