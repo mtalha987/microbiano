@@ -73,7 +73,7 @@ const ProductData = ({limit , }) => {
   return (
     <>
       <div className="mt-14">
-        <div className="flex flex-wrap sm:justify-center  xl:justify-normal gap-6">
+        <div className="flex flex-wrap sm:justify-center min-w-[100%]  xl:justify-normal gap-6">
           {displayedProducts.map((info, id) => (
             <div
               className={`w-[296px] 2xl:w-[342px] xs:w-full bg-white shadow mb-[40px]`}
