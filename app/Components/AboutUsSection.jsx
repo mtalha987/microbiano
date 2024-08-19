@@ -12,7 +12,7 @@ const AboutUsSection = () => {
             <Image src={Doctor} />
           </div>
           <div className="xs:mt-5">
-            <h2 className="text-[#5f1654] text-[42px] font-normal font-arial lg:mt-[102px] ">
+            <h2 className="text-secondary text-[42px] font-normal font-arial lg:mt-[102px] ">
               About Us
             </h2>
             <div>
@@ -29,7 +29,7 @@ const AboutUsSection = () => {
               </p>
             </div>
             <div className="mt-[42px] mb-10 lg:mb-0 ">
-              <button className="text-white text-base font-normal font-arial w-[134px] h-12 bg-[#5f1654]">
+              <button className="text-white text-base font-normal font-arial w-[134px] h-12 bg-secondary">
                 Enquire now
               </button>
             </div>
