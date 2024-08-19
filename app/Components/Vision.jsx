@@ -8,24 +8,24 @@ import MissionIcon from '@/public/images/missionIcon.svg'
 const Vision = () => {
   return (
     <>
-          <div className=' 2xl:max-w-[1440px] 2xl:mx-auto 2xl:p-0 xl:px-[90px] lg:px-10 px-5 sm:mt-16  flex flex-wrap xl:flex-nowrap   justify-between'>
+          <div className=' 2xl:max-w-[1440px] 2xl:mx-auto 2xl:p-0 xl:px-[90px] lg:px-10 px-5 sm:mt-16  flex flex-wrap xl:flex-nowrap   lg:justify-between justify-center'>
          
             {/* Section 2 */}
             <div className='lg:w-6/12 2xl:w-[auto]  '>
                 <div className='sm:mt-28 xs:mt-14'>
-                <h2 className="text-secondary text-[42px] font-normal font-arial ">Our Vision and Mission</h2>
-                    <Image src={Vector} className='sm:ml-48 xs:ml-9 xs:mt-3' />
+                <h2 className="text-secondary text-[42px] font-normal font-arial text-center lg:text-left">Our Vision and Mission</h2>
+                    <Image src={Vector} className='sm:ml-48 xs:ml-9 xs:mt-3 mb-9 lg:mb-0' />
                 </div>
                 <div className='xs:mt-2'>
-                    <div>
-                        <div className='flex items-center gap-4'>
+                    <div className='flex flex-col justify-center items-center lg:items-start gap-2'>
+                        <div className='flex items-center   gap-4'>
                             <div className="w-[52px] h-[52px]  rounded-[100px]" ><Image src={VisionIcon} alt='Vision' /></div>
                             <div className="text-light-black text-[28px] font-normal font-secondary">Vision</div>
 
                         </div>
                         <p className="w-[70%] xs:w-[100%] text-black text-base font-normal font-secondary leading-normal sm:ml-[70px] mt-5">Our vision to provide high quality cost effecve complete range of Microbiological Prepared Culture Media to UAE and GCC Market.</p>
                     </div>
-                    <div className='mt-12'>
+                    <div className='mt-12 flex flex-col justify-center items-center lg:items-start gap-2'>
                         <div className='flex items-center gap-4'>
                             <div className="w-[52px] h-[52px]  rounded-[100px]" ><Image src={MissionIcon} alt='Mission' /></div>
                             <div className="text-light-black text-[28px] font-normal font-secondary">Mission</div>
