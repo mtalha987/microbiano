@@ -8,11 +8,11 @@ import MissionIcon from '@/public/images/missionIcon.svg'
 const Vision = () => {
   return (
     <>
-          <div className=' 2xl:max-w-[1440px] 2xl:mx-auto 2xl:p-0 xl:px-[90px] lg:px-10 px-5 sm:mt-16  flex flex-wrap xl:flex-nowrap   lg:justify-between justify-center'>
+          <div className=' 2xl:max-w-[1440px] 2xl:mx-auto 2xl:p-0 xl:px-[90px] lg:px-10 px-5 lg:mt-16 sm:mt-6  flex flex-wrap xl:flex-nowrap   lg:justify-between justify-center'>
          
             {/* Section 2 */}
             <div className='lg:w-6/12 2xl:w-[auto]  '>
-                <div className='sm:mt-28 xs:mt-14'>
+                <div className='lg:mt-28 sm:mt-8 xs:mt-14'>
                 <h2 className="text-secondary text-[42px] font-normal font-arial text-center lg:text-left">Our Vision and Mission</h2>
                     <Image src={Vector} className='sm:ml-48 xs:ml-9 xs:mt-3 mb-9 lg:mb-0' />
                 </div>

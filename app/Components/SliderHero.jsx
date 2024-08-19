@@ -81,7 +81,7 @@ const SliderHero = () => {
           </div>
 
           <div
-            className="w-[63px] h-[63px] absolute top-[40%] xs:top-[43%] xl:ml-4 left-0 z-20 max-sm:hidden"
+            className="w-[63px] xs:hidden h-[63px] absolute top-[40%] xs:top-[43%] xl:ml-4 left-0 z-20 max-sm:hidden"
             onClick={handlePrevSlide}
           >
             <Image
@@ -93,7 +93,7 @@ const SliderHero = () => {
             />
           </div>
           <div
-            className="w-[63px] h-[63px] absolute top-[40%] xs:top-[43%] xl:mr-4 right-0 z-20 max-sm:hidden"
+            className="w-[63px] h-[63px] xs:hidden absolute top-[40%] xs:top-[43%] xl:mr-4 right-0 z-20 max-sm:hidden"
             onClick={handleNextSlide}
           >
             <Image
