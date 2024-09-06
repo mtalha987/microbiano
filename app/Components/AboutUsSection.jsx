@@ -25,7 +25,7 @@ const AboutUsSection = () => {
                 and supplying an extensive range of Microbiological Pre-poured
                 Culture Media (PPM), Pre-poured Tubed Media and Bottle Media.
                 All operational functions adhere to the required industry
-                compliance criteria{" "}
+                compliance criteria.
               </p>
             </div>
             <div className="mt-[42px] mb-10 lg:mb-0 ">

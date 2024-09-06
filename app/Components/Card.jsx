@@ -5,21 +5,21 @@ const Card = () => {
   const cardData = [
     {
       id: 1,
-      title: "Veterinary Food",
+      title: "Clinical, Veterinary",
       image: Dog,
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
     },
     {
         id: 2,
-        title: "Veterinary Food",
+        title: "Food, Water & Environmental",
         image: Dog,
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
       },
       {
         id: 3,
-        title: "Veterinary Food",
+        title: "Pharmaceutical & Industrial",
         image: Dog,
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",

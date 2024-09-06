@@ -47,15 +47,14 @@ const SliderHero = () => {
                   <div className="2xl:max-w-[1440px] 2xl:mx-auto flex flex-wrap lg:flex-nowrap ">
                     <div className="2xl:w-[60%] md:w-[80%] lg:w-[85%] lg:mt-24 mt-8 ">
                       <h1 className="xl:w-[72%] lg:w-[75%] sm:w-[89%] md:w-[95%] text-secondary sm:text-5xl xs:text-4xl font-normal font-arial p-2.5">
-                        Advanced Microbiological Media Solutions by Safecare
-                        Industries in Abu Dhabi
+                      Manufacturer of Prepared Microbiological Culture Media
                       </h1>
                       <div className="ml-80 ">
                         <Image src={Vector1} />
                       </div>
                       <p className="mt-4 text-black text-base font-normal font-secondary  leading-normal lg:w-[51%] w-[95%] pl-2.5">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore{" "}
+                        sed do eiusmod tempor incididunt ut labore
                       </p>
                       <div className="mt-11 pl-2.5 lg:pb-36">
                         <button className="w-[134px] h-12 bg-secondary text-white text-base font-normal font-arial">

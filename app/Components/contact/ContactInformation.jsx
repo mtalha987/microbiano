@@ -17,7 +17,10 @@ const ContactInformation = () => {
       <div className="flex flex-wrap gap-5 justify-center 2xl:max-w-[1440px] 2xl:mx-auto  xl:mx-[90px] lg:mx-10 mx-5">
         <CardContact image={PhoneIcon} title="Phone:" info="(12+) 123 3456"/>
         <CardContact image={EmailIcon} title="Email:" info="support@yoursite.com"/>
-        <CardContact image={LocationIcon} title="Location:" info="121th Haidezign st, Melbourne, AUS 12313"/>
+        <CardContact image={LocationIcon} title="Location:" info="Microbioano
+KHI-8-18 – Abu Dhabi,
+United Arab Emirates
+"/>
       </div>
     </>
   );

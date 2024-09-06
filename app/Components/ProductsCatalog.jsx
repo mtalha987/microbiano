@@ -18,7 +18,7 @@ const Products = () => {
       name: "Veterinary Food",
     },
     {
-      name: "water & Environmental",
+      name: "Water & Environmental",
     },
     {
       name: "Pharmaceutical",
