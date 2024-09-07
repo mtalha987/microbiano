@@ -37,6 +37,21 @@ const Header = () => {
   const handleLinkClick = () => {
     toggleMenu();
   };
+
+  const [aboutDropdown, setAboutDropdown] = useState(false);
+  const handleAboutHover = () => {
+    setAboutDropdown(true);
+  };
+
+  const handleAboutLeave = () => {
+    setAboutDropdown(false);
+  };
+
+  const [activeIndex, setActiveIndex] = useState(null);
+  const toggleAccordion = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
   return (
     <>
       <div className={`pt-5 xl:px-[90px] lg:px-10 px-5   ${getHeaderColor()}`}>
@@ -69,8 +84,67 @@ const Header = () => {
                 <li>
                   <Link href="/about">About Us</Link>
                 </li>
-                <li>
-                  <Link href="/product">Product</Link>
+                <li
+                  className="flex items-center relative"
+                  onMouseEnter={handleAboutHover}
+                  onMouseLeave={handleAboutLeave}
+                >
+                  Product{" "}
+                  <svg
+                    className="h-5 w-5 ml-[7px]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                  {aboutDropdown && (
+                    <ul
+                      className={`absolute w-[290px] left-0 top-6 pt-6 z-20 ${getHeaderColor()}  rounded shadow-lg `}
+                    >
+                      <li className=" hover:bg-secondary hover:text-white ">
+                        <Link href="/product" className="block px-3 py-2">
+                          All Product
+                        </Link>
+                      </li>
+                      <li className=" hover:bg-secondary hover:text-white ">
+                        <Link href="#" className="block px-3 py-2">
+                          Prepared Cultured Media Plates
+                        </Link>
+                      </li>
+                      <li className=" hover:bg-secondary hover:text-white ">
+                        <Link href="#" className="block px-3 py-2">
+                          Prepared Culture Media Tube
+                        </Link>
+                      </li>
+                      <li className=" hover:bg-secondary hover:text-white ">
+                        <Link href="#" className="block px-3 py-2">
+                          Prepared culture media bottles
+                        </Link>
+                      </li>
+                      <li className=" hover:bg-secondary hover:text-white ">
+                        <Link href="#" className="block px-3 py-2">
+                          CLinical & Veterinary Products
+                        </Link>
+                      </li>
+                      <li className=" hover:bg-secondary hover:text-white ">
+                        <Link href="#" className="block px-3 py-2">
+                          Food, Water & Environmental
+                        </Link>
+                      </li>
+                      <li className=" hover:bg-secondary hover:text-white ">
+                        <Link href="#" className="block px-3 py-2">
+                          Pharma & Industrial
+                        </Link>
+                      </li>
+                    </ul>
+                  )}
                 </li>
                 <li>
                   <Link href="/contact">Contact Us</Link>
@@ -95,7 +169,7 @@ const Header = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div
-            className={`lg:hidden w-full left-0 absolute z-20  ${getHeaderColor()} flex items-center  flex-col  transition-all duration-700 ease-in-out  ${
+            className={`lg:hidden w-full left-0 absolute z-30  ${getHeaderColor()} flex items-center  flex-col  transition-all duration-700 ease-in-out  ${
               isAnimatingOut ? "animationMoveOut " : "animationMove h-[87vh]"
             } `}
           >
@@ -114,10 +188,75 @@ const Header = () => {
               </li>
               <div className="w-full h-[0px] opacity-40 border border-[#0000004D]  "></div>
 
-              <li>
-                <Link href="/product" onClick={handleLinkClick}>
-                  Product
-                </Link>
+              <li className="flex items-center flex-col">
+                <div className="flex items-center">
+                  <Link href="/product" onClick={handleLinkClick}>
+                    Product
+                  </Link>
+                  <svg
+                    className="h-5 w-5 ml-[7px]"
+                    onClick={() => toggleAccordion(0)}
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </div>
+
+                {activeIndex === 0 && (
+                  <div className="w-full">
+                    <ul
+                      className={`w-full flex flex-col items-center justify-center`}
+                    >
+                      <div className="w-full h-[0px] opacity-40  border-2 mt-2 border-[#0000004D] "></div>
+
+                      <li className=" hover:bg-secondary hover:text-white ">
+                        <Link href="/product" className="block px-3 py-2" onClick={handleLinkClick}>
+                          All Product
+                        </Link>
+                      </li>
+                      <li className=" hover:bg-secondary hover:text-white" >
+                        <Link href="#" className="block px-3 py-2" onClick={handleLinkClick}>
+                          Prepared Cultured Media Plates
+                        </Link>
+                      </li>
+                      <li className=" hover:bg-secondary hover:text-white " >
+                        <Link href="#" className="block px-3 py-2" onClick={handleLinkClick}>
+                          Prepared Culture Media Tube
+                        </Link>
+                      </li>
+                      <li className=" hover:bg-secondary hover:text-white ">
+                        <Link href="#" className="block px-3 py-2" onClick={handleLinkClick}>
+                          Prepared culture media bottles
+                        </Link>
+                      </li>
+                      <li className=" hover:bg-secondary hover:text-white ">
+                        <Link href="#" className="block px-3 py-2" onClick={handleLinkClick}>
+                          CLinical & Veterinary Products
+                        </Link>
+                      </li>
+                      <li className=" hover:bg-secondary hover:text-white ">
+                        <Link href="#" className="block px-3 py-2" onClick={handleLinkClick}>
+                          Food, Water & Environmental
+                        </Link>
+                      </li>
+                      <li className=" hover:bg-secondary hover:text-white ">
+                        <Link href="#" className="block px-3 py-2" onClick={handleLinkClick}>
+                          Pharma & Industrial
+                        </Link>
+                      </li>
+
+                      <div className="w-full h-[0px] opacity-40  border-2 mt-2 border-[#0000004D] "></div>
+                    </ul>
+                  </div>
+                )}
               </li>
               <div className="w-full h-[0px] opacity-40 border border-[#0000004D] "></div>
 
@@ -136,7 +275,6 @@ const Header = () => {
               <SocialIcons icon={<FaTwitter />} />
               <SocialIcons icon={<AiFillInstagram />} />
               <SocialIcons icon={<FaYoutube />} />
-    
             </div>
           </div>
         )}
