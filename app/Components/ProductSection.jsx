@@ -38,7 +38,7 @@ const ProductSection = () => {
                 </div>
                 <div>
                   <h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
-                    Microbiological Media
+                  Prepared Cultured Media Plates 
                   </h2>
                 </div>
               </div>
@@ -48,7 +48,7 @@ const ProductSection = () => {
                 </div>
                 <div>
                   <h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
-                    Microbiological Media
+                  Prepared Culture Media Tube
                   </h2>
                 </div>
               </div>
@@ -58,7 +58,7 @@ const ProductSection = () => {
                 </div>
                 <div>
                   <h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
-                    Microbiological Media
+                  Prepared culture media bottles
                   </h2>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const ProductSection = () => {
                 </div>
                 <div>
                   <h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
-                    Microbiological Media
+                  CLinical & Veterinary Products
                   </h2>
                 </div>
               </div>
@@ -78,7 +78,17 @@ const ProductSection = () => {
                 </div>
                 <div>
                   <h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
-                    Microbiological Media
+                  Food, Water & Environmental
+                  </h2>
+                </div>
+              </div>
+              <div className="flex gap-3 mx-4 mt-4">
+                <div className="w-6 h-6 border border-[#9D9996]  rounded-full flex justify-center items-center content-center">
+                  <div className="w-4 h-4   rounded-full"></div>
+                </div>
+                <div>
+                  <h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
+                  Pharma & Industrial
                   </h2>
                 </div>
               </div>
