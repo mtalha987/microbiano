@@ -1,16 +1,17 @@
 import React from "react";
-import ProductPage from "../Components/ProductPage";
-import Banner from "../Components/Banner";
+import Banner from "../Components/common/Banner";
+import SinglePageBottomNav from "../Components/product/SinglePageBottomNav";
+import SingePageMainSection from "../Components/product/SingePageMainSection";
+import PageNameBanner from "../Components/common/PageNameBanner";
+import ProductBanner from "@/public/images/productPageBanner.png"
 
-import SinglePageBottomNav from "../Components/SinglePageBottomNav";
-import SingePageMainSection from "../Components/SingePageMainSection";
 
 const page = () => {
   return (
     <>
-      <ProductPage />
-      <SinglePageBottomNav/>
-      <SingePageMainSection/>
+      <PageNameBanner title="Product Page" image={ProductBanner} />
+      <SinglePageBottomNav />
+      <SingePageMainSection />
 
       <Banner />
     </>

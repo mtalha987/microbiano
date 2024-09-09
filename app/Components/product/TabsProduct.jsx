@@ -31,7 +31,7 @@ const TabsProduct = () => {
   
   return (
     <>
-     <div className="xl:px-[90px] lg:px-[40px] px-5 mt-20">
+     <div className="2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-0 xl:px-[90px] lg:px-[40px] px-5 mt-20">
       <div className="flex border-b border-[#9D9996]">
         {tabs.map((tab) => (
           <button

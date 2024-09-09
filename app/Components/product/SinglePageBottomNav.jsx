@@ -6,7 +6,7 @@ import Link from "next/link";
 const SinglePageBottomNav = () => {
   return (
     <>
-     <div className="xl:mx-[90px] lg:mx-10 mx-5 mt-10 flex xs:flex-col xs:items-start justify-between items-center flex-wrap xs:mb-5">
+     <div className="2xl:max-w-[1440px] 2xl:mx-auto xl:mx-[90px] lg:mx-10 mx-5 mt-10 flex xs:flex-col xs:items-start justify-between items-center flex-wrap xs:mb-5">
         <Link href="/product" className="inline-flex items-center gap-3">
           <Image src={ArrowLeft} />
           <span className="text-neutral-800 text-base font-medium font-['Poppins'] leading-normal">

@@ -3,69 +3,9 @@ import Image from "next/image";
 import Cart from "@/public/images/productCart.svg";
 import ProductImage from "@/public/images/productImage.png";
 import Link from "next/link";
+import productData from "@/data/products";
 
-const productData = [
-  {
-    name: "KM0075",
-    price: "$45.00",
-    description: "Bacillus Cereus Agar (MYP)",
-  },
-  {
-    name: "KM0075",
-    price: "$45.00",
-    description: "Bacillus Cereus Agar (MYP)",
-  },
-  {
-    name: "KM0075",
-    price: "$45.00",
-    description: "Bacillus Cereus Agar (MYP)",
-  },
-  {
-    name: "KM0075",
-    price: "$45.00",
-    description: "Bacillus Cereus Agar (MYP)",
-  },
-  {
-    name: "KM0075",
-    price: "$45.00",
-    description: "Bacillus Cereus Agar (MYP)",
-  },
-  {
-    name: "KM0075",
-    price: "$45.00",
-    description: "Bacillus Cereus Agar (MYP)",
-  },
-  {
-    name: "KM0075",
-    price: "$45.00",
-    description: "Bacillus Cereus Agar (MYP)",
-  },
-  {
-    name: "KM0075",
-    price: "$45.00",
-    description: "Bacillus Cereus Agar (MYP)",
-  },
-  {
-    name: "KM0075",
-    price: "$45.00",
-    description: "Bacillus Cereus Agar (MYP)",
-  },
-  {
-    name: "KM0075",
-    price: "$45.00",
-    description: "Bacillus Cereus Agar (MYP)",
-  },
-  {
-    name: "KM0075",
-    price: "$45.00",
-    description: "Bacillus Cereus Agar (MYP)",
-  },
-  {
-    name: "KM0075",
-    price: "$45.00",
-    description: "Bacillus Cereus Agar (MYP)",
-  },
-];
+
 
 const ProductData = ({limit , }) => {
   const displayedProducts = limit ? productData.slice(0, limit) : productData;

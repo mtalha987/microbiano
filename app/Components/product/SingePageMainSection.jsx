@@ -7,7 +7,7 @@ import RelatedProducts from "./RelatedProducts";
 const SingePageMainSection = () => {
   return (
     <>
-      <div className="xl:mx-[90px] lg:mx-10 mx-5 flex flex-wrap md:flex-nowrap xl:gap-[90px] md:gap-10 ">
+      <div className="2xl:max-w-[1440px] 2xl:mx-auto xl:mx-[90px] lg:mx-10 mx-5 flex flex-wrap md:flex-nowrap xl:gap-[90px] md:gap-10 ">
         <div className="md:w-6/12 bg-white shadow md:mt-0 mt-10">
           <Image src={SingleMain} />
         </div>

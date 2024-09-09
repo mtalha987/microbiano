@@ -6,7 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaYoutube } from "react-icons/fa";
-import SocialIcons from "./SocialIcons";
+import SocialIcons from "./common/SocialIcons";
 
 const Footer = () => {
   return (

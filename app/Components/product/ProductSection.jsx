@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ProductData from "./ProductData";
+import ProductData from "../common/ProductData";
 import ArrowDown from "@/public/images/arrow-down.svg";
 
 const ProductSection = () => {

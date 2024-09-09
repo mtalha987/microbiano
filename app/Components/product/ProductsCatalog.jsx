@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Cart from "@/public/images/productCart.svg";
 import ProductImage from "@/public/images/productImage.png";
-import ProductData from "./ProductData";
+import ProductData from "../common/ProductData";
 import Link from "next/link";
-import MobileDropDown from "./MobileDropDown";
+import MobileDropDown from "../common/MobileDropDown";
 
 const Products = () => {
   const catalogeData = [

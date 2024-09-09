@@ -1,9 +1,8 @@
 import React from 'react'
-import PageNameBanner from '../Components/PageNameBanner'
-import Banner from '../Components/Banner'
-import AboutUsSection from '../Components/AboutUsSection'
-import AboutHeroImg from '@/public/images/aboutHero.svg';
-import Vision from '../Components/Vision';
+import PageNameBanner from '../Components/common/PageNameBanner'
+import Banner from '../Components/common/Banner'
+import AboutUsSection from '../Components/common/AboutUsSection';
+import Vision from '../Components/common/Vision';
 import ProductPageBanner from "@/public/images/productPageBanner.png"
 
 
