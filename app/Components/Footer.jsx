@@ -71,12 +71,11 @@ const Footer = () => {
                 Social Links
               </h2>
               <div className="flex gap-2 mt-5">
-              <SocialIcons icon={<FaFacebookF />} />
-              <SocialIcons icon={<FaTwitter />} />
-              <SocialIcons icon={<AiFillInstagram />} />
-              <SocialIcons icon={<FaYoutube />} />
-    
-            </div>
+                <SocialIcons icon={<FaFacebookF />} />
+                <SocialIcons icon={<FaTwitter />} />
+                <SocialIcons icon={<AiFillInstagram size={22} />} />
+                <SocialIcons icon={<FaYoutube size={22} />} />
+              </div>
             </div>
           </div>
           {/* Col-5 */}

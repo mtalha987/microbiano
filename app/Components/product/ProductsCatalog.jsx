@@ -5,28 +5,10 @@ import ProductImage from "@/public/images/productImage.png";
 import ProductData from "../common/ProductData";
 import Link from "next/link";
 import MobileDropDown from "../common/MobileDropDown";
+import categoryList from "@/data/CategoryList";
 
 const Products = () => {
-  const catalogeData = [
-    {
-      name: "All Products",
-    },
-    {
-      name: "Clinical",
-    },
-    {
-      name: "Veterinary Food",
-    },
-    {
-      name: "Water & Environmental",
-    },
-    {
-      name: "Pharmaceutical",
-    },
-    {
-      name: "Industrial and Cosmetic",
-    },
-  ];
+
 
   return (
     <>
@@ -37,10 +19,10 @@ const Products = () => {
           </h2>
           <MobileDropDown />
         </div>
-        <div className="md:flex xl:flex-nowrap flex-wrap font-arial justify-start xl:justify-normal   gap-3 mt-7 hidden">
-          {catalogeData.map((info, id) => (
+        <div className="md:flex  flex-wrap font-arial justify-start xl:justify-normal   gap-3 mt-7 hidden">
+          {categoryList.map((info, id) => (
             <div
-              className="h-[35px] px-[15px] py-2.5 rounded-lg border border-black justify-center items-center gap-2.5 inline-flex"
+              className=" px-[15px] py-2.5 rounded-lg border border-black justify-center items-center gap-2.5 inline-flex"
               key={id}
             >
               <div>{info.name}</div>

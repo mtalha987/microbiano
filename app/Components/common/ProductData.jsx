@@ -18,7 +18,7 @@ const ProductData = ({limit , }) => {
             <div
               className={`w-[296px] 2xl:w-[342px] xs:w-full bg-white shadow mb-[40px]`}
               key={id} >
-              <Link href="/singleProduct">
+              <Link href="/product/singleProduct">
               <div className="flex items-center justify-between">
                 <div className="w-[61px] h-12 bg-[#9e1f66] rounded-br-[15px] text-white text-base font-normal font-primary leading-normal flex justify-center items-center">
                   New

@@ -38,7 +38,7 @@ const ProductSection = () => {
                 </div>
                 <div>
                   <h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
-                  Prepared Cultured Media Plates 
+                  Prepared Cultured Media Plates  
                   </h2>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const ProductSection = () => {
                 </div>
                 <div>
                   <h2 className="text-[#716b66] text-base font-normal font-['Inter'] leading-normal">
-                  CLinical & Veterinary Products
+                  Clinical & Veterinary Products
                   </h2>
                 </div>
               </div>

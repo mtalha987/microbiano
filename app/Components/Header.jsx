@@ -61,10 +61,11 @@ const Header = () => {
             <span> / </span>
             <span>+04 89 76 4576</span>
           </div>
-          <div>
-            <span className="font-normal leading-tight uppercase">
-              Open from 9am to 5pm - Closed on Weekends
-            </span>
+          <div className="flex gap-2 mt-5">
+            <SocialIcons icon={<FaFacebookF size={16} />} />
+            <SocialIcons icon={<FaTwitter size={16} />} />
+            <SocialIcons icon={<AiFillInstagram size={20} />} />
+            <SocialIcons icon={<FaYoutube size={20}/>} />
           </div>
         </div>
         <div className="w-full 2xl:max-w-[1440px] 2xl:mx-auto h-[0px] opacity-40 border border-neutral-gray mt-2 mb-5 hidden lg:block"></div>
@@ -218,37 +219,65 @@ const Header = () => {
                       <div className="w-full h-[0px] opacity-40  border-2 mt-2 border-[#0000004D] "></div>
 
                       <li className=" hover:bg-secondary hover:text-white ">
-                        <Link href="/product" className="block px-3 py-2" onClick={handleLinkClick}>
+                        <Link
+                          href="/product"
+                          className="block px-3 py-2"
+                          onClick={handleLinkClick}
+                        >
                           All Product
                         </Link>
                       </li>
-                      <li className=" hover:bg-secondary hover:text-white" >
-                        <Link href="#" className="block px-3 py-2" onClick={handleLinkClick}>
+                      <li className=" hover:bg-secondary hover:text-white">
+                        <Link
+                          href="#"
+                          className="block px-3 py-2"
+                          onClick={handleLinkClick}
+                        >
                           Prepared Cultured Media Plates
                         </Link>
                       </li>
-                      <li className=" hover:bg-secondary hover:text-white " >
-                        <Link href="#" className="block px-3 py-2" onClick={handleLinkClick}>
+                      <li className=" hover:bg-secondary hover:text-white ">
+                        <Link
+                          href="#"
+                          className="block px-3 py-2"
+                          onClick={handleLinkClick}
+                        >
                           Prepared Culture Media Tube
                         </Link>
                       </li>
                       <li className=" hover:bg-secondary hover:text-white ">
-                        <Link href="#" className="block px-3 py-2" onClick={handleLinkClick}>
+                        <Link
+                          href="#"
+                          className="block px-3 py-2"
+                          onClick={handleLinkClick}
+                        >
                           Prepared culture media bottles
                         </Link>
                       </li>
                       <li className=" hover:bg-secondary hover:text-white ">
-                        <Link href="#" className="block px-3 py-2" onClick={handleLinkClick}>
+                        <Link
+                          href="#"
+                          className="block px-3 py-2"
+                          onClick={handleLinkClick}
+                        >
                           CLinical & Veterinary Products
                         </Link>
                       </li>
                       <li className=" hover:bg-secondary hover:text-white ">
-                        <Link href="#" className="block px-3 py-2" onClick={handleLinkClick}>
+                        <Link
+                          href="#"
+                          className="block px-3 py-2"
+                          onClick={handleLinkClick}
+                        >
                           Food, Water & Environmental
                         </Link>
                       </li>
                       <li className=" hover:bg-secondary hover:text-white ">
-                        <Link href="#" className="block px-3 py-2" onClick={handleLinkClick}>
+                        <Link
+                          href="#"
+                          className="block px-3 py-2"
+                          onClick={handleLinkClick}
+                        >
                           Pharma & Industrial
                         </Link>
                       </li>
