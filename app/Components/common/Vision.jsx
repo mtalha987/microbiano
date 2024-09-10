@@ -10,7 +10,7 @@ const Vision = () => {
     <>
       <div className=" 2xl:max-w-[1440px] 2xl:mx-auto 2xl:p-0 xl:px-[90px] lg:px-10 px-5 lg:mt-16 sm:mt-6  flex flex-wrap xl:flex-nowrap   lg:justify-between justify-center">
         {/* Section 2 */}
-        <div className="lg:w-6/12 2xl:w-[auto]  ">
+        <div className="lg:w-6/12 xl:w-[75%]  ">
           <div className="lg:mt-28 sm:mt-8 xs:mt-14">
             <h2 className="text-secondary text-[42px] font-normal font-arial text-center lg:text-left">
               Our Vision and Mission
@@ -30,7 +30,7 @@ const Vision = () => {
                   Vision
                 </h3>
               </div>
-              <p className="w-[70%] xs:w-[100%] text-black text-base font-normal font-secondary leading-normal sm:ml-[70px] mt-5">
+              <p className="w-[70%]  xs:w-[100%] text-black text-base font-normal font-secondary leading-normal sm:ml-[70px] mt-5">
                 We aim to deliver high-quality, cost-effective,
                 microbiologically prepared culture media to the UAE and GCC
                 markets. We aspire to be the leading provider of reliable and
@@ -47,7 +47,7 @@ const Vision = () => {
                   Mission
                 </h3>
               </div>
-              <p className="w-[70%] xs:w-[100%] text-black text-base font-normal font-secondary leading-normal sm:ml-[70px] mt-5">
+              <p className="w-[70%]  xs:w-[100%] text-black text-base font-normal font-secondary leading-normal sm:ml-[70px] mt-5">
                 Our mission is to manufacture and supply premium ready-to-use
                 culture media and broths, ensuring exceptional quality and
                 consistency. We are dedicated to serving the UAE and GCC
@@ -57,9 +57,9 @@ const Vision = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-6/12 2xl:w-auto lg:relative flex justify-end ">
+        <div className="lg:w-6/12  lg:relative flex justify-end ">
           <Image src={VisionImg} className="mt-12 xl:ml-12 lg:mt-0" />
-          <div className="w-[155px] h-[397px] bg-secondary lg:absolute -z-10  hidden xl:block top-20 left-16 2xl:left-0" />
+          <div className="w-[155px] h-[397px] bg-secondary lg:absolute -z-10  hidden xl:block top-28 left-16 2xl:left-0" />
         </div>
       </div>
     </>

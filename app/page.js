@@ -1,20 +1,16 @@
-import Image from "next/image";
-import Header from "./Components/Header";
-import Hero from "./Components/home/Hero";
 import Card from "./Components/home/Card";
-import Products from "./Components/product/ProductsCatalog";
 import AboutUsSection from "./Components/common/AboutUsSection";
 import Vision from "./Components/common/Vision";
 import Banner from "./Components/common/Banner";
 import SliderHero from "./Components/home/SliderHero";
+import ProductSection from "./Components/home/ProductSection";
 
 export default function Home() {
   return (
     <>
-      {/* <Hero/> */}
         <SliderHero />
         <Card />
-        <Products />
+        <ProductSection/>
         <AboutUsSection />
         <Vision />
         <Banner />
