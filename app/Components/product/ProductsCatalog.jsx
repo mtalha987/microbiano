@@ -15,7 +15,7 @@ const Products = () => {
       <div className="xl:px-[90px] 2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-0 lg:px-10 px-5">
         <div className="flex justify-between   items-center xs:gap-2">
           <h2 className="text-[#18130f] text-[42px] font-normal font-arial text-center xl:text-left 2xl:text-center">
-            Products
+          Microbiological Products for Every Need
           </h2>
           <MobileDropDown />
         </div>

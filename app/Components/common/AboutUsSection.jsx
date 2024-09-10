@@ -20,12 +20,7 @@ const AboutUsSection = () => {
             </div>
             <div>
               <p className="w-[489px] xs:w-full  text-[#151515] text-base font-normal font-secondary leading-normal mt-5">
-                Safecare Industries located in KEZAD- Abu Dhabi with fully
-                automated manufacturing facilities specialized in manufacturing
-                and supplying an extensive range of Microbiological Pre-poured
-                Culture Media (PPM), Pre-poured Tubed Media and Bottle Media.
-                All operational functions adhere to the required industry
-                compliance criteria.
+              Here at Microbiano, we are dedicated to providing high-quality microbiological products from our cutting-edge, fully automated manufacturing facilities in KEZAD, Abu Dhabi. We specialize in producing and supplying various microbiological pre-poured culture media (PPM), pre-poured tubed media, and bottled media designed to meet the highest industry standards. Our operations strictly follow industry compliance regulations, ensuring the delivery of reliable, premium products to laboratories and industries worldwide.
               </p>
             </div>
             <div className="mt-[42px] mb-10 lg:mb-0 ">

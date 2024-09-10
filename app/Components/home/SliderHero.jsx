@@ -46,15 +46,15 @@ const SliderHero = () => {
                 <div className=" xl:px-[90px] lg:px-10 px-5 bg-[#f5e9f0]">
                   <div className="2xl:max-w-[1440px] 2xl:mx-auto flex flex-wrap lg:flex-nowrap ">
                     <div className="2xl:w-[60%] md:w-[80%] lg:w-[85%] lg:mt-24 mt-8 ">
-                      <h1 className="xl:w-[72%] lg:w-[75%] sm:w-[89%] md:w-[95%] text-secondary sm:text-5xl xs:text-4xl font-normal font-arial p-2.5">
-                      Manufacturer of Prepared Microbiological Culture Media
+                      <h1 className="xl:w-[700px] lg:w-[640px]  sm:w-[89%] md:w-[95%] text-secondary sm:text-5xl xs:text-4xl font-normal font-arial p-2.5">
+                      Microbiano: Leading Supplier of Prepared Culture Media and Microbiological Testing Products
                       </h1>
                       <div className="ml-80 ">
                         <Image src={Vector1} />
                       </div>
-                      <p className="mt-4 text-black text-base font-normal font-secondary  leading-normal lg:w-[51%] w-[95%] pl-2.5">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore
+                      <p className="mt-4 text-black text-base font-normal font-secondary  leading-normal lg:w-[51%] xl:w-[65%] w-[95%] pl-2.5">
+                      Here at Microbiano, we offer various microbiological products for different industries. Whether working in clinical labs, veterinary practices, or food and water testing, we provide the necessary solutions. Our products are also perfect for pharmaceutical and industrial use.
+
                       </p>
                       <div className="mt-11 pl-2.5 lg:pb-36">
                         <button className="w-[134px] h-12 bg-secondary text-white text-base font-normal font-arial">

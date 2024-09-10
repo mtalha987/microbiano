@@ -12,14 +12,12 @@ export default function Home() {
   return (
     <>
       {/* <Hero/> */}
-      <div className="">
         <SliderHero />
         <Card />
         <Products />
         <AboutUsSection />
         <Vision />
         <Banner />
-      </div>
     </>
   );
 }

@@ -4,21 +4,21 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 
 const inter = Inter({
-  subsets: ['latin'],
-  weight: ['400', '700'], // Specify the weights you want
-  variable: '--font-inter',
+  subsets: ["latin"],
+  weight: ["400", "700"], // Specify the weights you want
+  variable: "--font-inter",
 });
 
 const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['400', '600'], // Specify the weights you want
-  variable: '--font-poppins',
+  subsets: ["latin"],
+  weight: ["400", "600"], // Specify the weights you want
+  variable: "--font-poppins",
 });
 
 export const metadata = {
-  title: "Microbiano",
+  title: "Top Supplier of Culture Media & Microbiological Products",
   description:
-    "Microbiano - Delivering cutting-edge microbiological medical solutions from Abu Dhabi, UAE, to enhance patient care",
+    "Microbiano, located in KEZAD, Abu Dhabi, UAE, is a top supplier of premium culture media and microbiological products across Dubai, Sharjah, Ajman, Qatar, Saudi Arabia, Oman, Bahrain, and the GCC.",
 };
 
 export default function RootLayout({ children }) {
@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body className={`${inter.variable} ${poppins.variable}`}>
-        <Header/>
+        <Header />
         {children}
         <Footer />
       </body>
