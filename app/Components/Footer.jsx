@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Logo from "@/public/images/logo.svg";
-
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
@@ -78,43 +77,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          {/* Col-5 */}
-          <div>
-            <div className="flex flex-col gap-5">
-              <h2 className="text-[#1e1e1e] text-xl font-semibold font-secondary">
-                Key features
-              </h2>
-              <div className="flex flex-col gap-4  text-[#716b66] text-base font-normal font-secondary leading-normal">
-                <p>
-                  All our PPM products are quality assures and manufacturing
-                  facilities adhere to Good Manufacturing Practice Guidelines.
-                </p>
-                <p>
-                  We produce our PPM products using high quality dehydrated
-                  culture media/ supplements and automated production lines to
-                  get consistent performance.
-                </p>
-                <p>
-                  Safecare follows the stringent stands of Good Manufacturing
-                  Practices (GMP) defined and approved by Ministry of Health
-                  UAE.
-                </p>
-                <p>Class 10,000 validated clean area</p>
-                <p>Fully automated 6 line production lines.</p>
-                <p>
-                  Fully automatic online quality inspection composed of camera
-                  vision system for poured plates for capturing the images of
-                  the dishes and High speed expulsion station for extracting the
-                  not suitable dishes.
-                </p>
-                <p>
-                  Warehouse logistics function and warehouse located in Abu
-                  Dhabi, Dubai, Sharjah Emirates with Refrigerated vehicle
-                  facilitating the timeframe delivery .
-                </p>
-              </div>
-            </div>
-          </div>
           {/* Col 6 */}
           <div>
             <div className="flex flex-col gap-5">
@@ -122,17 +84,13 @@ const Footer = () => {
                 Accreditation
               </h2>
               <div className="flex flex-col gap-4  text-[#716b66] text-base font-normal font-secondary leading-normal">
-                <p>ISO 9001: 2015 Quality Management System</p>
+                <p>ISO 9001:2015 – Quality Management System</p>
+                <p>ISO 13485:2016 – Culture Media Manufacturing</p>
+                <p>CE – European Compliance</p>
                 <p>
-                  ISO 13485: 2016 The development, manufacture and supply of
-                  ready-to-use culture media
+                GMP – Certified by the Ministry of Health UAE
                 </p>
-                <p>CE ( European Conformity )</p>
-                <p>
-                  International Good Manufacturing Practices (GMP) which is
-                  certified by Ministry of Health UAE.
-                </p>
-                <p>MOH License</p>
+                <p>MOH License – Ministry of Health Certification</p>
               </div>
             </div>
           </div>
