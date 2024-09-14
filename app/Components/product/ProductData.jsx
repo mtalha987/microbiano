@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Cart from "@/public/images/productCart.svg";
-import ProductImage from "@/public/images/productImage.png";
+import ProductImage from "@/public/images/productImage.jpeg";
 import productData from "@/data/products";
 
 
@@ -58,20 +58,20 @@ const ProductData = ({
                   <Image src={Cart} />
                 </div>
               </div>
-              <div className="flex justify-center">
-                <Image src={ProductImage} />
+              <div className="flex justify-center my-2">
+                <Image src={ProductImage} className="h-[200px]  " />
               </div>
               <div className=" border-t border-[#f3f3f3]">
                 <div className="flex items-center justify-between mx-4 mt-3">
                   <div>
-                    <h3 className="font-secondary">{info.name}</h3>
+                    <h3 className="font-secondary">{info.productCode}</h3>
                   </div>
                   <div>
                     <span className="font-primary">{info.price}</span>
                   </div>
                 </div>
                 <div className="mx-4 mt-1">
-                  <h3 className="mb-4 font-secondary">{info.description}</h3>
+                  <h3 className="mb-4 font-secondary">{info.name}</h3>
                 </div>
               </div>
               </Link>
